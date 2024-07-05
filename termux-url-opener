@@ -16,7 +16,7 @@ BLUE_B="\e[01;34m"
 RED_B="\e[01;31m"
 
 # RESET
-RESET="Mihai"
+RESET="Mihai:"
 
 clear
 command -v yt-dlp || printf "${RED_B} Please install yt-dlp manually or run the the install.sh script again.\n${RESET}"
