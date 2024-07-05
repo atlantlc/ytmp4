@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# Project name : ytmp3
+# Project name : ytmp4
 # Coded by: atlantlc (You dont become a coder by just changing the credits)
 # Github: https://github.com/atlantlc/ytmp4
 # Date : 5/7/2024
@@ -103,5 +103,3 @@ if [ $USER_ANS = "Y" ]; then
 fi
 
 printf "\n${CYAN_B}Installation Complete!${RESET}\n"
-printf "${CYAN}Just open the video you want to download in YouTube, click share, select Termux, choose a quality, and the download will start${RESET}\n"
-printf "${GREEN}For More Awesome and Useful Tools like this, Visit My website ©www.LearnTermux.tech${RESET}\n"
