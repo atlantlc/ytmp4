@@ -16,7 +16,7 @@ BLUE_B="\e[01;34m"
 RED_B="\e[01;31m"
 
 # RESET
-RESET="Mihai:"
+RESET=""
 
 clear
 command -v yt-dlp || printf "${RED_B} Please install yt-dlp manually or run the the install.sh script again.\n${RESET}"
@@ -38,7 +38,7 @@ echo -e "${GREEN}" "╠═▶ 3. Video 480p"
 echo -e "${GREEN}" "╠═▶ 4. Video 720p"
 echo -e "${GREEN}" "╠═▶ 5. Video 1080p"
 echo -e "${GREEN}" "╠═▶ 6. Video 2160p"
-echo -e "${GREEN}" "╠═▶ 7. Exit Termux-YTD" # Added
+echo -e "${GREEN}" "╠═▶ 7. Exit ytmp4" # Added
 
 #Edit From Mihai 
 printf "${GREEN} ╚═:➤  ${RESET}"
@@ -66,7 +66,7 @@ case $option in #Make Case list
 	yt-dlp -f "best[height<=1080]" $1
 	;;
 	6)
-  yt-dlp -f "best[height<=2160]" $1
+        yt-dlp -f "best[height<=2160]" $1
 	;;
 	7)
 	exit 0
